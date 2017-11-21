@@ -4,13 +4,14 @@ namespace Kunstwerken;
 
 abstract class ArtAbstract
 {
-    public $year;
-    public $title;
-    public $artist;
-
+    public $jaar;
+    public $titel;
+    public $artiest;
+    
     function __construct()
     {
-        $this->date = new Date('Y');
+        $this->jaar = new \DateTime("Y");
     }
     
+   
 }
